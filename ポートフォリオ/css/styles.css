@@ -1,0 +1,245 @@
+/* header */
+body {
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(66, 64, 64);
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(../img/white.jpg);
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  padding: 20px 5px 5px 0;
+}
+
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+header  ul a {
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 8px 30px;
+  border-left: solid;
+  border-right: solid;
+  border-left-color: rgba(102, 66, 83, 0.281);
+  border-right-color: rgba(102, 66, 83, 0.281);
+  margin: 10px 1px;
+}
+
+header ul >:nth-child(2) {
+  font-size: 15px;
+  margin-right: auto;
+  border-radius: 5px;
+  border-style: outset;
+  background-color: #e6bfb2;
+}
+
+header a {
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(85, 84, 84);
+}
+
+#foodwaste h1,
+#performance h1,
+#story h1 {
+  color: #473b36;
+  background-color:rgba(235, 233, 233, 0.685);
+  padding: 20px 100px 20px 100px;
+  text-shadow: 0 0 3px #5e4e46;
+  box-shadow: 0 0 30px #a3a2a29a;;
+}
+
+#foodwaste, 
+#performance,
+#story {
+  padding: 100px 0;
+  background-size: cover;
+}
+
+#foodwaste {
+  background-image: url(../img/foodwaste.jpg);
+}
+
+#performance {
+  background-image: url(../img/performance.jpg);
+  background-position: 40%;
+}
+
+#story {
+  background-image: url(../img/story.jpg);
+  background-position: 40%;
+}
+
+
+.news {
+  width: 70%;
+  margin: auto;
+}
+
+.news h1 {
+  color: rgb(85, 84, 84);
+  padding-left: 15px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(128, 128, 128, 0.418);
+  border-bottom-color: rgba(128, 128, 128, 0.418);
+}
+
+.news ul {
+  list-style-type: none;
+  padding:0;
+}
+
+.news ul>li {
+  padding-left: 20px;
+}
+
+.news ul>:nth-child(2n-1) {
+  background-color: #e6bfb2;
+}
+
+.Problem {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Problem .item1,
+.Problem .item2 {
+  display: flex;
+  margin: 10px 0;
+}
+
+.Problem .item2 {
+  flex-direction: row-reverse;
+}
+
+.Problem h1,
+.cystem h1 {
+  color: rgb(85, 84, 84);
+  font-weight: 550;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Problem p,
+.cystem p {
+  font-weight: 500;
+  line-height: 2.5;
+}
+
+.ex {
+  padding: 60px 100px;
+  background-color: #e6bfb279;
+}
+
+.cystem {
+  text-align: center;
+}
+
+.cystem a {
+  color: rgb(56, 55, 55);
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: #fff462;
+  border-radius: 3px;
+  margin-top: 230px;
+}
+
+.give,
+.recieve {
+  color: rgb(10, 10, 10);
+  height: 370px;
+}
+
+.give {
+  background-image: url(../img/give.jpg);
+  background-position: 60%;
+  background-size: cover;
+}
+
+.recieve {
+  background-image: url(../img/recieve.jpg);
+  background-position: 60%;
+  background-size: cover;
+}
+
+.give a,
+.recieve a {
+  display: inline-block;
+}
+
+
+.give p,
+.recieve p {
+  background-color: rgba(235, 233, 233, 0.5);
+}
+
+
+
+footer {
+  background-color: grey;
+}
+
+footer ul {
+  display: flex;
+  padding: 20px 0 20px 50px;
+}
+
+footer h1 {
+  font-size: 17px;
+  color:rgba(235, 233, 233, 0.5);
+  font-weight: normal;
+  margin: 0;
+}
+
+li {
+  list-style-type: none; 
+}
+
+footer>ul>li {
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+}
+
+.column li {
+  color:rgba(209, 209, 209, 0.5);
+  font-size: 13px;
+  list-style-type: disc;
+}
+
+.column li a {
+  color:rgba(209, 209, 209, 0.5);
+}
+.other,
+.name {
+  text-align: center;
+  font-size: 12px;
+}
+
+.other a {
+  color:rgba(209, 209, 209, 0.5);
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.name {
+  color:rgba(209, 209, 209, 0.5);
+  padding: 30px;
+}
+
