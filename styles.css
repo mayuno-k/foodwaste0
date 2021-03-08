@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   color: rgb(66, 64, 64);
   font-family: 'Times New Roman', Times, serif;
-  background-image: url(../img/white.jpg);
+  background-image: url(https://github.com/mayuno-k/foodwaste0/blob/main/white.jpg?raw=true);
 }
 
 .title {
@@ -68,16 +68,16 @@ a{
 }
 
 #foodwaste {
-  background-image: url(../img/foodwaste.jpg);
+  background-image: url(https://github.com/mayuno-k/foodwaste0/blob/main/foodwaste.jpg?raw=true);
 }
 
 #performance {
-  background-image: url(../img/performance.jpg);
+  background-image: url(https://github.com/mayuno-k/foodwaste0/blob/main/performance.jpg?raw=true);
   background-position: 40%;
 }
 
 #story {
-  background-image: url(../img/story.jpg);
+  background-image: url(https://github.com/mayuno-k/foodwaste0/blob/main/story.jpg?raw=true);
   background-position: 40%;
 }
 
@@ -163,13 +163,13 @@ a{
 }
 
 .give {
-  background-image: url(../img/give.jpg);
+  background-image: url(https://github.com/mayuno-k/foodwaste0/blob/main/give.jpg?raw=true);
   background-position: 60%;
   background-size: cover;
 }
 
 .recieve {
-  background-image: url(../img/recieve.jpg);
+  background-image: url(https://github.com/mayuno-k/foodwaste0/blob/main/recieve.jpg?raw=true);
   background-position: 60%;
   background-size: cover;
 }
